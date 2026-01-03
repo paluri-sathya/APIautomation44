@@ -2,7 +2,7 @@ package utils;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
-//Testing pull request
+
 public class FailRetry implements IRetryAnalyzer {
 
     private int retryCount = 0;
