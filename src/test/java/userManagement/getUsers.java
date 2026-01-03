@@ -34,7 +34,7 @@ public class getUsers extends BaseTest {
     String endpoint = getUrl("endpoint");
     String URL = serverAddress + endpoint;
     //SoftAssertionUtil softAssertion = new SoftAssertionUtil();
-
+//check to my Git hub
     @Test
     public void getUserData() {
         given().
