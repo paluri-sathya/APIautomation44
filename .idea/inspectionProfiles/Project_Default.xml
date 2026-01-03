@@ -1,0 +1,50 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="APIautomation" />
+          <option value="APIautomation" />
+          <option value="APIautomation" />
+          <option value="APIautomation" />
+          <option value="APIautomation" />
+          <option value="APIautomation" />
+          <option value="APIautomation" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="commons-codec:commons-codec:1.11" />
+          <option value="com.beust:jcommander:1.72" />
+          <option value="org.apache.commons:commons-lang3:3.11" />
+          <option value="com.google.guava:guava:28.2-android" />
+          <option value="com.fasterxml.jackson.core:jackson-databind:2.11.0" />
+          <option value="com.fasterxml.jackson.core:jackson-core:2.11.0" />
+          <option value="org.mozilla:rhino:1.7.7.2" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="groupsTestNG" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="groups">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="RegressionSuite" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
